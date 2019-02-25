@@ -1,114 +1,133 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <style>
-            body, html {
-                height: 100%;
-                margin: 0;
-                font: 400 15px/1.8 "Lato", sans-serif;
-                color: #777;
-            }
+<title>James Andrews Jr.</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
 
-            .bgimg-1, .bgimg-2, .bgimg-3 {
-                position: relative;
-                opacity: 0.65;
-                background-attachment: fixed;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
-            .bgimg-1 {
-                /*background-image: url(Repecki%20face.PNG);*/
-                background-image: url(Repecki%20face%20edit.png);
-                min-height: 100%;
-            }
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>James</b> Andrews</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+      <a href="#about" class="w3-bar-item w3-button">About Me</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
 
-            .bgimg-2 {
-                /*background-image: url(Eli%20Face.PNG);*/
-                background-image: url(Eli%20Face%20edit.png);
-                min-height: 400px;
-            }
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="/w3images/architect.jpg" alt="Cover Photo" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>James</b></span> <span class="w3-hide-small w3-text-light-grey">Andrews</span></h1>
+  </div>
+</header>
 
-            .bgimg-3 {
-                /*background-image: url(Morris%20Face.PNG);*/
-                background-image: url(Morris%20Face%20edit.png);
-                min-height: 400px;
-            }
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
 
-            .caption {
-                position: absolute;
-                left: 0;
-                top: 50%;
-                width: 100%;
-                text-align: center;
-                color: #000;
-            }
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
+  </div>
 
-            .caption span.border {
-                background-color: #111;
-                color: #fff;
-                padding: 18px;
-                font-size: 25px;
-                letter-spacing: 10px;
-            }
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Dischord</div>
+        <img src="/Images/Crosslight Cloud.jpg" alt="Game" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Redacted</div>
+        <img src="/w3images/house2.jpg" alt="Game" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Mods</div>
+        <img src="/Images/Crosslight Cloud.jpg" alt="Mods" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Spirits</div>
+        <img src="/w3images/house4.jpg" alt="Game" style="width:100%">
+      </div>
+    </div>
+  </div>
 
-            h3 {
-                letter-spacing: 5px;
-                text-transform: uppercase;
-                font: 20px "Lato", sans-serif;
-                color: #111;
-            }
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Four Right Turns</div>
+        <img src="/w3images/house2.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+  </div>
 
-            /* Turn off parallax scrolling for tablets and phones */
-            @media only screen and (max-device-width: 1024px) {
-                .bgimg-1, .bgimg-2, .bgimg-3 {
-                    background-attachment: scroll;
-                }
-            }
-        </style>
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+    <p>Hi! I'm James Andrews Jr., a game developer at Northeastern University studying Computer Science and Game Design. Since young, I always took a huge interest in the field of games, and since 2013, I started teaching myself how to code and create 3D assets. Since I started college in 2017, I've been honing my coding skills to actualize my efforts into tangible game projects. 
+    
+    Now, I'm ready to help my passion grow in the industry of Computer Science.
+    </p>
+  </div>
 
-        <!-- END EZHEAD --> </head>
-    <body>
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team2.jpg" alt="Games" style="width:100%">
+      <h3>NU SmUsh</h3>
+      <p class="w3-opacity">a gamer</p>
+      <p>Founder of NU SmUsh, a Super Smash Bros. Ultimate Tournament Weekly with a focus on honing the skills of new players in a competitive environment.</p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team1.jpg" alt="Service" style="width:100%">
+      <h3>Community Profile</h3>
+      <p class="w3-opacity">a leader</p>
+      <p>Worked in many leadership positions throughout high school and beyond, including the Jersey City Kappa League and the Ujima Global Leaders of Northeastern University.</p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team3.jpg" alt="Friend" style="width:100%">
+      <h3>Social Life</h3>
+      <p class="w3-opacity">a friend</p>
+      <p>A hard worker in school and in relationships. Easily sociable, and an eager seeker of knowledge about people, culture, and life.</p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team4.jpg" alt="Scholar" style="width:100%">
+      <h3>Academics</h3>
+      <p class="w3-opacity">a scholar</p>
+      <p>Rising Junior at Northeastern University. Current GPA: 3.066</p>
+    </div>
+  </div>
 
-        <div class="bgimg-1">
-            <div class="caption">
-                <span class="border">WARNING</span>
-            </div>
-        </div>
+  <!-- Contact Section -->
+  <div class="container-fluid text-center" id="Contact">
+    <a href="https://github.com/JamesAndrewsXV" class="fa fa-github">
+    	Replace with Image
+    </a>
+    <p></p>
+    <a href="https://www.linkedin.com/in/james-andrews-jr-15b8a0167/" class="fa fa-linkedin">
+    	Replace with Image
+    </a>
 
-        <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
-            <h3 style="text-align:center;">Wonders of the World</h3>
-            <p>Welcome to the database of people who make a difference</p>
-        </div>
+  </div>
+  
 
-        <div class="bgimg-2">
-            <div class="caption">
-                <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">FOR BETTER OR FOR WORSE</span>
-            </div>
-        </div>
+<!-- End page content -->
+</div>
 
-        <div style="position:relative;">
-            <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-                <p>These three have done questionable, yet amazing things in their lives, and they deserve to be noted.  The faces in the background could bring about the end of the world as we know it, or bring about a revolution</p>
-            </div>
-        </div>
 
-        <div class="bgimg-3">
-            <div class="caption">
-                <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">BEWARE</span>
-            </div>
-        </div>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p></p>
+</footer>
 
-        <div style="position:relative;">
-            <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-                <p>Nobody knows when they will strike, but one thing is clear...</p>
-            </div>
-        </div>
-
-        <div class="bgimg-1">
-            <div class="caption">
-                <span class="border">THEY ARE COMING</span>
-            </div>
-        </div>
-    </body>
+</body>
 </html>
